@@ -25,9 +25,8 @@ function ageChecker(age) {
 }
 
 function ternaryTeenager(age) {
-  console.log('You are ' + (age >= '13' && age <= '19' ? 'a teenager' : 'not a teenager'));
+    return "age >= '13' && age <= '19' ? 'You are a teenagre' : 'You are not a teenager'"
 }
-
 function switchAge(age) {
   switch(age) {
     case "13":
